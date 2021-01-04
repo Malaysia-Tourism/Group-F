@@ -1,0 +1,108 @@
+/* For table */
+table, th, td
+{
+  border-collapse: collapse;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+table
+{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  table-layout: fixed;
+}
+
+/* For table */
+
+body p
+{
+  margin-bottom: 20px;
+  line-height: 1.9em;
+  word-wrap: break-word;
+  text-align: left;
+  font-size:1vw;
+}
+
+.post
+{
+  border: 1px solid #ceceae;
+  background: #fff;
+  clear: both;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.post h2
+{
+   color: #596482 !important;
+    padding: 7px 10px 7px 30px;
+     width: 698px;
+      margin: 0 0 10px -15px;
+      font-size:1.5vw;
+    }
+
+.post h2.post-title
+{
+  color: #fff !important;
+  padding: 8px 0 8px 28px;
+  width: 710px;
+  margin: 0 0 10px -15px;
+  font-size:1.5vw;
+ }
+
+.post h2.title_topics
+{
+  width: 698px;
+  height: 40px;
+  background: url('../images/title_topics.gif') no-repeat center;
+  text-indent: -9999px;
+  padding: 0;
+  margin: 0 0 10px -15px;
+  font-size:1.5vw;
+}
+
+.post h2.title_link
+{
+  width: 698px;
+  height: 40px;
+  background: url('../images/title_link.gif') no-repeat center;
+  text-indent: -9999px;
+  padding: 0;
+  margin: 0 0 10px -15px;
+  font-size:1.5vw;
+}
+
+.aligncenter, div.aligncenter
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.size-full
+{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+@media screen and (max-width:800px) {
+.size-full {
+    width: 360px;
+    height: 179px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+@media screen and (max-width:350px) {
+.size-full {
+    width: 260px;
+    height: 79px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}

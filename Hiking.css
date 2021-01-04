@@ -1,0 +1,144 @@
+/* For table */
+table, th, td
+{
+  border-collapse: collapse;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+table
+{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  table-layout: fixed;
+}
+/* For table */
+
+body p
+{
+  margin-bottom: 2px;
+  line-height: 1.9em;
+  word-wrap: break-word;
+  text-align: left;
+  font-size:1vw;
+}
+
+a
+{
+  line-height: 1.9em;
+  word-wrap: break-word;
+  text-align: left;
+  font-size:1vw;
+}
+
+body h2
+{
+   color: #596482 !important;
+      font-size:1.5vw;
+    }
+
+ul, li
+{
+   color: #596482 !important;
+      font-size:1.2vw;
+    }
+
+body h1
+{
+
+   color: #596482 !important;
+      font-size:1.8vw;
+    }
+
+.ArticleCont
+{
+  background-color: white;
+}
+
+
+/* For Pic Card */
+.post-column
+{
+  border: 1px solid #ceceae;
+  background: #fff;
+  width: 240px;
+  height: 360px;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  float: left;
+  margin: 0 2px 20px 2px;
+  overflow: hidden;
+}
+
+.post-column p
+{
+  padding: 0 11px;
+  font-size:1vw;
+}
+
+.post-column a.post-column-read
+{
+  display: block;
+  width: 90px;
+  background: #f8941d;
+  color: #fff;
+  text-align: center;
+  padding: 3px 0;
+  position: absolute;
+  bottom: 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.post-column h3
+{
+  font-size: 1.1em;
+  line-height: 1em;
+  color: #00b3ff;
+  margin: 0 5px;
+  padding: 2px 0 10px 5px;
+  font-size:1.3vw;
+}
+
+.post-column h3 a
+{
+  color: #00b3ff;
+}
+
+.centered
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.size-full
+{
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+@media screen and (max-width:800px) {
+.size-full {
+    width: 360px;
+    height: 179px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+@media screen and (max-width:350px) {
+.size-full {
+    width: 260px;
+    height: 79px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+/* For Pic Card */

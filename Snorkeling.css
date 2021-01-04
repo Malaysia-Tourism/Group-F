@@ -1,0 +1,123 @@
+.ConTPicText
+{
+  text-align: center;
+  font-size:1.5vw;
+}
+
+/* For table */
+table, th, td
+{
+  border-collapse: collapse;
+  padding: 18px;
+}
+
+table
+{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  table-layout: fixed;
+}
+
+h3
+{
+  color: white;
+  text-shadow: 2px 2px #000000;
+  font-size:1.5vw;
+}
+
+/* For table */
+/* For Pic Card */
+.post-column
+{
+  border: 1px solid #ceceae;
+  background: #fff;
+  width: 240px;
+  height: 360px;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  margin: 0 2px 20px 2px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.post-column p
+{
+  padding: 0 11px;
+  font-size:1vw;
+}
+
+.post-column a.post-column-read
+{
+  display: block;
+  width: 90px;
+  background: #f8941d;
+  color: #fff;
+  text-align: center;
+  padding: 3px 0;
+  position: absolute;
+  bottom: 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.post-column h3
+{
+  font-size: 1.1em;
+  line-height: 1em;
+  color: #00b3ff;
+  margin: 0 5px;
+  padding: 2px 0 10px 5px;
+  font-size:1.3vw;
+  text-shadow: none;
+}
+
+.post-column h3 a
+{
+  color: #00b3ff;
+}
+
+.centered
+{
+  display: block; margin: auto;
+}
+
+/* For Pic Card */
+
+@media screen and (max-width:700px) {
+.TPicCon {
+    width: 50px;
+    height: 50px;
+  }
+
+.centered {
+  display: block; margin: auto;
+  height: 50px;
+  width: 50px;
+}
+
+.post-column{
+  width: 140px;
+  height: 160px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.post-column-read{
+    width: 20px;
+    max-width: 50%;
+    padding: 1px;
+    font-size:1vw;
+}
+
+table, th, td {
+    padding: 18px;
+}
+table{
+    width: 100%;
+}
+}

@@ -1,0 +1,31 @@
+body, html{
+	font: 1em Roboto;
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 23px;
+}
+
+.afamosa {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50em;
+}
+
+.container p {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+}

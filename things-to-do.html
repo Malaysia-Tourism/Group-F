@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Things To Do</title>
+
+    <link rel="stylesheet" href="Initial.css">
+    <link rel="stylesheet" href="things-to-do.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <script src="Initial.js"></script>
+    <script src="things-to-do.js"></script>
+
+  </head>
+  <body onload="showSlides()">
+
+    <!--Navigation tab-->
+    <header>
+			<nav>
+				<div class="lower_navbar">
+					<div class="lower_navbar_content">
+						<div class="menu-icon">
+							<i class="fas fa-bars fa-2x"></i>
+						</div>
+						<div class="logo">
+							<a href="main.html"><img src="Picture/Tm.png"></a>
+						</div>
+						<div class="menu1">
+							<ul>
+								<li><a href="main.html">Home</a></li>
+								<li><a href="place-to-go.html">Place To Go</a></li>
+								<li><a href="things-to-do.html">Things to do</a></li>
+								<li><a href="deals.html">Deals and Packages</a></li>
+								<li><a href="Events.html">Events</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+    </header>
+    <!--Navigation tab-->
+    <!--Picture Slider-->
+    <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img class="PicCon" src="Picture\Picture-1.jpg">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img class="PicCon" src="Picture\Picture-2.jpg">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img class="PicCon" src="Picture\Picture-3.jpg">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img class="PicCon" src="Picture\Picture-4.jpg">
+      <div class="text"></div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <!--Picture Slider-->
+
+<br>
+
+<!-- Container of Three Pic-->
+      <h3 class="ConTPicText">List Of Activity</h3><br>
+
+      <table class="ConTPic">
+        <tr>
+          <th class="Col1">
+            <div class="Piccard1">
+              <br>
+              <picture>
+
+              <img class="TPicCon" src="Picture\Picture-5.jpg" alt="Scuba">
+              </picture>
+              <div class="HoverText1">
+                <button type="button" class="Btn" name="button1" onclick="FunBtn1()"><h4><b>Snorkeling</b></h4></button>
+                <br>
+              </div>
+            </div>
+          </th>
+          <th class="Col2">
+            <div class="Piccard2">
+              <br>
+              <picture>
+              <img class="TPicCon" src="Picture\Picture-6.jpg" alt="Hiking">
+              </picture>
+              <div class="HoverText2">
+                <button type="button" class="Btn" name="button2" onclick="FunBtn2()"><h4><b>Hiking</b></h4></button>
+                <br>
+              </div>
+            </div>
+          </th>
+          <th class="Col3">
+            <div class="Piccard3">
+              <br>
+              <picture>
+              <img class="TPicCon" src="Picture\Picture-7.jpg" alt="Sightseeing">
+              </picture>
+              <div class="HoverText3">
+                <button type="button" class="Btn" name="button3" onclick="FunBtn3()"><h4><b>Sightseeing</b></h4></button>
+                <br>
+              </div>
+            </div>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <div class="HoverText1">
+              <p>From muck diving and macro life to hammerheads and whale sharks, Sabah is a scuba diver's dream!</p>
+            </div>
+          </td>
+          <td>
+            <div class="HoverText2">
+              <p>Which hiking trail in Malaysia would you like to conquer next?</p>
+            </div>
+          </td>
+          <td>
+            <div class="HoverText3">
+              <p>Malaysia is a friendly, culturally rich nation that’s modern and comfortable yet has managed to retain its ecological beauty.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="3"></td>
+        </tr>
+      </table>
+<!-- Container of Three Pic-->
+<br>
+<!-- Container of Footer -->
+<section>
+  <div class="footer">
+    <div class="footer-content">
+
+
+      <div class="footer-refs-content-3">
+        <h5>About the <b>Site</b></h5>
+              <ul>
+                  <li><a href="">Terms & Conditions</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Site Map</a></li>
+                  <li><a href=""><img src="Picture/Tm.png" style="width: 150px;"></a></li>
+              </ul>
+      </div>
+    </div>
+    <div class="lower-footer">
+      <div class="lower-footer-content">
+        <div id="footer-align-left">
+          All Rights Reserved. © 2020 TM Travel
+        </div>
+        <div id="footer-align-right">
+          <a href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+          <a href=""><i class="fab fa-twitter-square fa-3x"></i></a>
+          <a href=""><i class="fab fa-google-plus-square fa-3x"></i></a>
+          <a href=""><i class="fab fa-youtube-square fa-3x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Container of Footer -->
+  </body>
+</html>

@@ -1,0 +1,29 @@
+#map {
+  float: right;
+  height: 400px;
+  width: 60%;
+  }
+
+.maps-api h3 {
+  text-align: right;
+}
+
+.google {
+  box-sizing: border-box;
+  width: 10%;
+  float: left;
+  padding-top: 2em;
+}
+
+.waze {
+  box-sizing: border-box;
+  width: 20%;
+  float: left;
+  padding-left: 30px;
+}
+
+.direction-btn::after {
+  content: "";
+  clear: both;
+  display: table;
+}
